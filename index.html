@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jude Baffoe | CS 499 ePortfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header, main, footer { max-width: 900px; margin: 0 auto; padding: 24px 20px; }
+    header { padding-top: 56px; }
+    h1 { font-size: 2.2rem; margin: 0 0 4px; }
+    .tagline { color: var(--muted); margin: 0; }
+    nav { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 14px; }
+    nav a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    section { background: var(--panel); border-radius: 12px; padding: 22px 24px; margin-bottom: 20px; }
+    h2 { margin-top: 0; font-size: 1.35rem; }
+    h3 { margin-bottom: 4px; }
+    .tag { display: inline-block; font-size: 0.8rem; color: var(--bg); background: var(--accent); border-radius: 999px; padding: 2px 10px; margin-right: 6px; }
+    .status { color: var(--muted); font-size: 0.9rem; }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: 0.9rem; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jude Mensah Nana Baffoe</h1>
+    <p class="tagline">Computer Science ePortfolio &middot; CS 499 Capstone &middot; Southern New Hampshire University</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#software">Software Engineering</a>
+      <a href="#algorithms">Algorithms &amp; Data Structures</a>
+      <a href="#databases">Databases</a>
+      <a href="#review">Code Review</a>
+      <a href="#assessment">Self-Assessment</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a B.S. Computer Science student (Software Engineering concentration) at SNHU, graduating in
+        December 2026, and a U.S. Air Force Senior Airman. I am also the solo developer behind Teq Vault LLC,
+        where I build mobile games, web apps and developer tools.
+      </p>
+      <p>
+        This ePortfolio shows how I have improved three pieces of my coursework to demonstrate skills in software
+        design and engineering, algorithms and data structures, and databases.
+      </p>
+    </section>
+
+    <section id="software">
+      <h2>Software Design and Engineering</h2>
+      <span class="tag">Artifact</span> <strong>WarehouseInventoryApp</strong> (Android, from CS 360)
+      <p>Planned enhancement: reorganize the app into UI, ViewModel and Repository layers, add working inventory features, input validation and unit tests.</p>
+      <p class="status">Status: planning (Module One). Enhanced code and narrative coming.</p>
+    </section>
+
+    <section id="algorithms">
+      <h2>Algorithms and Data Structures</h2>
+      <span class="tag">Artifact</span> <strong>Pirate Treasure-Hunt Q-Learning Agent</strong> (Python, from CS 370)
+      <p>Planned enhancement: circular replay buffer, BFS and A* baselines, decaying exploration and a target network, plus an evaluation harness that compares the agent with the shortest path.</p>
+      <p class="status">Status: planning (Module One). Enhanced code and narrative coming.</p>
+    </section>
+
+    <section id="databases">
+      <h2>Databases</h2>
+      <span class="tag">Artifact</span> <strong>WarehouseInventoryApp data layer</strong> (SQLite / Room, from CS 360)
+      <p>Planned enhancement: relational schema with keys and indexes, parameterized queries, transactions, salted password hashing and migrations.</p>
+      <p class="status">Status: planning (Module One). Enhanced code and narrative coming.</p>
+    </section>
+
+    <section id="review">
+      <h2>Code Review</h2>
+      <p class="status">Video walkthrough of the original artifacts and the planned improvements will be added here.</p>
+    </section>
+
+    <section id="assessment">
+      <h2>Professional Self-Assessment</h2>
+      <p class="status">Will be added here as the course progresses.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 Jude Baffoe &middot; CS 499 ePortfolio
+  </footer>
+
+</body>
+</html>
